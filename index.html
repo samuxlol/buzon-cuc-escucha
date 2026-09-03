@@ -244,6 +244,7 @@
             />
           </div>
 
+
           <div class="field">
             <label for="programa">Programa académico</label>
             <select id="programa" name="programa" required>
@@ -271,11 +272,19 @@
           </div>
         </div>
 
-        <p class="privacy">
-          Esta versión es únicamente de front-end. Al presionar “Enviar mensaje”
-          se mostrará una confirmación en pantalla, pero los datos no se almacenan
-          en una base de datos ni se envían a ningún servidor.
-        </p>
+                <form id="buzonForm">
+        <div class="grid">
+          <div class="field">
+            <label for="nombre">correo instucional</label>
+            <input
+              type="text"
+              id="nombre"
+              email="email"
+              placeholder="Adiaz@cuc"
+              autocomplete="name"
+              required
+            />
+          </div>
 
         <div class="actions">
           <button type="submit">Enviar mensaje</button>
